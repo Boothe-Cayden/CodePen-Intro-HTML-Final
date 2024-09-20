@@ -1,0 +1,75 @@
+.content-wrapper {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+
+.content-wrapper > .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 25px;
+    width: auto;
+    font-size: 2.5rem;
+    padding-left: 50px;
+    font-weight: 500;
+}
+
+.content-wrapper > .text-wrapper > .line-1-wrapper {
+    font-weight:100;
+    padding-bottom: 25px;
+}
+
+.content-wrapper > .text-wrapper > .line-1-wrapper > .bolded {
+    font-weight: bold;
+}
+
+.content-wrapper > .text-wrapper > .line-2-wrapper {
+    font-weight:100;
+    width: 800px;
+}
+
+.content-wrapper > .text-wrapper > .in-line-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 50px;  
+    font-size: 2.3rem; 
+}
+
+.content-wrapper > .text-wrapper > .in-line-button-wrapper > .sign-up-for-free-button {
+    background-color: rgb(40, 228, 96);
+    padding: 15px 20px;
+    color: black;
+    margin-right: 20px;
+}
+
+.content-wrapper > .text-wrapper > .in-line-button-wrapper > .learn-more-button {
+    background-color: black;
+    padding: 15px 20px;
+}
+
+.content-wrapper > .text-wrapper > .in-line-button-wrapper > .learn-more-button,.sign-up-for-free-button {
+border-radius: 5px;
+}
+
+.content-wrapper > .screenshot-wrapper {
+    display: grid;
+    justify-content: right;
+}
+
+.content-wrapper > .screenshot-wrapper > .statement-wrapper {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.content-wrapper > .screenshot-wrapper > .statement-wrapper > .blue {
+    color: #0a98f7;
+}
+
+.content-wrapper > .screenshot-wrapper > .webpage-wrapper > #webpage {
+    width: 600px;
+}

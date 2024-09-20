@@ -1,0 +1,75 @@
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+    box-shadow: 1000px 100px 300px 300px rgba(0, 0, 0, .35);
+}
+
+.header > .codepen img {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.header > .links-wrapper {
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 1.3rem;
+
+}
+
+.header > .links-wrapper > .explore-wrapper {
+    color: gold;
+}
+
+.header > .links-wrapper > .second-row-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+
+}
+
+.header > .links-wrapper > .second-row-wrapper > .spark {
+    color: gray;
+    font-size: 1.2rem;
+    word-spacing: 5px;
+    font-weight:450;
+}
+
+.header > .account-wrapper {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding-left: 100px;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.header > .account-wrapper > .create,.log-in,.sign-up {
+    background-color: rgb(77, 77, 77);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.header > .account-wrapper > .create i {
+    color: green;
+}
+
+.header > .account-wrapper > .search-icon i {
+    font-size: 2rem;
+    color: rgb(77, 77, 77);
+}
+

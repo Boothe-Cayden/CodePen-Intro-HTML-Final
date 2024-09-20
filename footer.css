@@ -1,0 +1,49 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(77, 77, 77);
+    /* margin-bottom: 25px; */
+}
+
+.footer > .teams,.education,.privacy,.writing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 100%;
+    border: .5px solid;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    /* background-color: gray;
+    padding: 15px 20px; */
+}
+
+.footer > .teams {
+    border-left: none;
+}
+
+.footer > .writing {
+    border-right: none;
+}
+
+.footer > .teams > .bolded {
+    font-weight: 1000;
+    font-size: 1.5rem;
+}
+
+.footer > .education .bolded {
+    font-weight: 1000;
+    font-size: 1.5rem;
+}
+
+.footer > .privacy > .bolded {
+    font-weight: 1000;
+    font-size: 1.5rem;
+}
+
+.footer > .writing > .bolded {
+    font-weight: 1000;
+    font-size: 1.5rem;
+}
